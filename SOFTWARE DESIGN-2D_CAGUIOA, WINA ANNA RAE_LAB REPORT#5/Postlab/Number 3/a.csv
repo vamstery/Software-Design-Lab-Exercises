@@ -1,0 +1,9 @@
+Column,Type,Length,Decimal Places,Nulls allowed?,Description
+TRIP_ID,VARCHAR,3,0,No,Trip ID (primary key)
+TRIP_NAME,CHAR,75,,,Trip name
+START_LOCATION,CHAR,50,,,Start location for trip
+STATE,CHAR,2,,,Trip state
+DISTANCE,NUMBER,4,0,,Distance (length) of trip
+MAX_GRP_SIZE,NUMBER,4,0,,Maximum number of persons
+TYPE,CHAR,20,,,Trip type
+SEASON,CHAR,20,,,Trip season
